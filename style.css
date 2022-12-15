@@ -1,0 +1,226 @@
+*{
+    font-family: 'Barlow Semi Condensed';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-main-article{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    margin: 10px;
+    height: 460px;
+}
+
+.profile-img{
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    width: 50px;
+}
+
+.first-h1{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%); 
+    position: relative;
+    z-index: 100;
+}
+
+.second-h1{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%); 
+}
+
+.fourth-h1{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%); 
+}
+
+.fifth-h1{
+    font-size: 20px;
+    color: hsl(219, 29%, 14%);
+}
+
+.fkb{
+    color: hsl(219, 29%, 14%);
+    margin: 0;
+}
+
+.fdb{
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.pp{
+    color:hsl(0, 0%, 81%);
+    font-size: 13px;
+    margin: 0;
+}
+
+.top-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-info-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.fma-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px ;
+}
+
+h1{
+    margin: 0;
+}
+
+.wide-testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-start;
+    padding: 20px;
+    width: 500px;
+    border: none;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+
+.bg-quotation{
+    position: absolute;
+    top:0;
+    right: 100px;
+}
+
+.above{
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+}
+
+.below{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.up{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.down{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.small-testimonial{
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: none;
+    border-radius: 10px;
+    margin: 0 10px;
+    height: 200px;
+}
+
+
+@media screen and (max-width:380px) {
+    .bg-quotation{
+        position: absolute;
+        top:0;
+        right: 20px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-main-article{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: flex-start;
+        text-align: left;
+        background-color: hsl(0, 0%, 100%);
+        width: 300px;
+        padding: 20px;
+        border-radius: 7px;
+        border: none;
+        margin: 10px;
+        height: fit-content;
+    }
+
+    .fma-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 ;
+    }
+
+    h1{
+        margin: 10px 0;
+    }
+
+    .wide-testimonial{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+        align-items: flex-start;
+        padding: 20px;
+        width: 300px;
+        border: none;
+        border-radius: 7px;
+        margin: 10px 0;
+        align-self: center;
+    }
+
+    .small-testimonial{
+        padding: 20px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border: none;
+        border-radius: 10px;
+        margin: 10px 0;
+        height: fit-content;
+        align-self: center;
+    }
+}
